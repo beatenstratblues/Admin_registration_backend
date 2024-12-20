@@ -10,7 +10,7 @@ const app = express();
 //middlewares
 
 app.use(express.json())
-app.use(cors({origin: true}));
+app.use(cors({origin: "frontend-lb-411463960.ap-south-1.elb.amazonaws.com"}));
 
 
 //routes
